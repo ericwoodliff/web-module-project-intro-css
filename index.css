@@ -77,14 +77,31 @@ nav a{
     background-color: #FF764E;
     margin-left: 10%;
 }
+.orange:hover {
+    background-color: rgb(252, 0, 0);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    transform: translateY(0) scale(1.2);
+}
 
 .blue {
     background-color: #5ED3EB; 
     margin: 0 24%;
 }   
+.blue:hover {
+    background-color: rgb(252, 0, 0);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    transform: translateY(0) scale(1.2);
+    
+}
 .yellow {
     background-color: #FFCD69;
     margin-right: 10%;
+}
+
+.yellow:hover {
+    background-color: rgb(252, 0, 0);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    transform: translateY(0) scale(1.2);
 }
 
 /*top section styles*/
@@ -101,11 +118,20 @@ nav a{
     border-radius: 50%;
     width: 60%;
 }
+
+.left img:hover{
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    transform: translateY(-10px);
+}
 .right{
     padding:4%;
     line-height: 2;
     position:absolute;
     bottom:20%;
+}
+.right:hover{
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    
 }
 /*main section styles*/
 .main{
