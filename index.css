@@ -138,8 +138,22 @@ nav a{
     width: 14%;
     
 }
-.caption{
+/*footer styles*/
+
+footer{
+    background-color: #F9E7DC;
+    padding-bottom: 0%;
     
 }
+
+.footerimage{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+}
+
 
 
