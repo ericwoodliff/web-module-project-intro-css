@@ -121,14 +121,15 @@ nav a{
     text-align: center;
     font-stretch: expanded;
     line-height: 1.6;
-    padding: 5%
+    padding: 3%;
+    padding-bottom: 3%;
 }
 
 .firepicture{ 
     margin-left: 43%;
     margin-right: 43%;
     width: 14%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     
 }
 
@@ -139,21 +140,31 @@ nav a{
     
 }
 /*footer styles*/
-
 footer{
     background-color: #F9E7DC;
     padding-bottom: 0%;
+    padding-top:0%;
+   
+    
     
 }
 
-.footerimage{
+.lrg {
+    background-image: url("assets/footer_img.jpg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top center;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+
+}
+    
+
+
     
     
 
-}
+
 
 
 
